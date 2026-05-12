@@ -35,7 +35,8 @@ a[href^="#"] { display: none !important; }
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("## 🧪 Estimación de MON_ET – Super Plantas de Distribución")
+st.markdown("## 🧪 Estimación de MON_ET")
+st.markdown("##    Super Plantas de Distribución")
 
 # ==========================================================
 # CRITERIOS METROLÓGICOS (igual a tu script)
@@ -59,7 +60,7 @@ def cargar_modelo():
 
 try:
     GBR, columnas_modelo = cargar_modelo()
-    st.success("✅ Modelo Gradient Boosting (Interior) con validación metrológica")
+    st.success("✅ Modelo Gradient Boosting con validación metrológica")
 except Exception as e:
     st.error("❌ Error al cargar el modelo o las columnas (.joblib)")
     st.caption(f"Detalle técnico: {e}")
