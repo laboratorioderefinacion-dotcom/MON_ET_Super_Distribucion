@@ -36,7 +36,7 @@ a[href^="#"] { display: none !important; }
 """, unsafe_allow_html=True)
 
 st.markdown("## 🧪 Estimación de MON_ET")
-st.markdown("##    Super Plantas de Distribución")
+st.markdown("##    Gasolina Super Plantas de Distribución")
 
 # ==========================================================
 # CRITERIOS METROLÓGICOS (igual a tu script)
